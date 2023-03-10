@@ -1,0 +1,53 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family: 'Cabin', sans-serif;
+    font-size: 15vw;
+    font-weight: 25px;
+    background-image: linear-gradient(180deg,
+        rgb(231, 238, 232) 0%,
+        rgb(241, 238, 235) 50%,
+        rgb(240, 245, 247) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color: #008000;
+}
+
+.clear-alarm {
+    background-color: #ff0000;
+}
